@@ -1,7 +1,7 @@
 !---------------------------3D LJ Mixture at RHO=.3---------------------------------
 !-----------------------------implementing NVE MD-----------------------------------
 !-------------------------------using cell  lists-----------------------------------
-!-------------------------particles are originating on a lattice--------------------
+!-------------------------particles are randomly initialised------------------------
     module parameters
       integer*4,parameter :: n=2000 !no. of particles
       integer*4 :: cntmax,idum
